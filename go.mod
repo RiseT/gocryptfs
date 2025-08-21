@@ -1,6 +1,6 @@
 module github.com/rfjakob/gocryptfs/v2
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/aperturerobotics/jacobsa-crypto v1.0.2
@@ -10,7 +10,7 @@ require (
 	github.com/rfjakob/eme v1.1.2
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/crypto v0.18.0
-	golang.org/x/sys v0.16.0
-	golang.org/x/term v0.16.0
+	golang.org/x/crypto v0.35.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/term v0.29.0
 )
